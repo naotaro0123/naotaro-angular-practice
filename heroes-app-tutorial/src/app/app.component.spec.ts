@@ -16,10 +16,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-naotaro-practice'`, () => {
+  it(`should have as title 'heroes-app-tutorial'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('angular-naotaro-practice');
+    expect(app.title).toEqual('heroes-app-tutorial');
   });
 
   it('should render title', () => {
@@ -27,7 +27,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain(
-      'angular-naotaro-practice app is running!'
+      'heroes-app-tutorial app is running!'
     );
   });
 });

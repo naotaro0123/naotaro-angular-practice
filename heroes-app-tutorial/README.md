@@ -1,4 +1,4 @@
-# angular-naotaro-practice
+# heroes-app-tutorial
 
 > My first practice Augular.js 
 
